@@ -1,0 +1,14 @@
+kurs = "Python Öğreniyorum"
+
+print(kurs[0])            #p
+print(kurs[-1])           #m
+adet = len(kurs)
+
+print(adet)                #18
+print(kurs[adet - 1])      #m
+
+print(kurs[0:6])           #Python
+print(kurs[:6])            #Python
+print(kurs[11:len(kurs)])  #niyorum
+print(kurs[11:])           #niyorum
+print(kurs[-11 :- 1])      #Öğreniyoru
